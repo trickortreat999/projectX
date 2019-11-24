@@ -1,0 +1,31 @@
+>> stereoParams.CameraParameters2
+
+ans = 
+
+  cameraParameters - 属性:
+
+   Camera Intrinsics
+                    IntrinsicMatrix: [3×3 double]
+                        FocalLength: [284.4079 267.5501]
+                     PrincipalPoint: [298.9270 249.4087]
+                               Skew: 11.3979
+                   RadialDistortion: [-0.1590 0.0929 -0.0232]
+               TangentialDistortion: [0.0096 0.0533]
+                          ImageSize: [480 640]
+
+   Camera Extrinsics
+                   RotationMatrices: [3×3×9 double]
+                 TranslationVectors: [9×3 double]
+
+   Accuracy of Estimation
+              MeanReprojectionError: 40.4177
+                 ReprojectionErrors: [144×2×9 double]
+                  ReprojectedPoints: [144×2×9 double]
+
+   Calibration Settings
+                        NumPatterns: 9
+                        WorldPoints: [144×2 double]
+                         WorldUnits: 'millimeters'
+                       EstimateSkew: 1
+    NumRadialDistortionCoefficients: 3
+       EstimateTangentialDistortion: 1
